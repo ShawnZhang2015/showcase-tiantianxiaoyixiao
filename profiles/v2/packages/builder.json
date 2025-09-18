@@ -1,0 +1,214 @@
+{
+  "__version__": "1.3.6",
+  "version": {
+    "builder": "1.2.3"
+  },
+  "log": {
+    "level": 4
+  },
+  "common": {
+    "outputName": "android",
+    "mainBundleCompressionType": "merge_dep",
+    "platform": "android",
+    "startScene": "ccd8a281-dceb-4daf-af98-a6429d9fd772",
+    "replaceSplashScreen": false,
+    "name": "link",
+    "scenes": [
+      {
+        "url": "db://assets/scenes/fight.scene",
+        "uuid": "2680a995-9110-4802-ab52-9bcb75f661d0",
+        "inBundle": false
+      },
+      {
+        "url": "db://assets/scenes/login.scene",
+        "uuid": "ccd8a281-dceb-4daf-af98-a6429d9fd772",
+        "inBundle": false
+      },
+      {
+        "url": "db://assets/scenes/pve.scene",
+        "uuid": "3e5c7c2f-6a88-4819-8368-5bbe7190f2a2"
+      }
+    ],
+    "polyfills": {
+      "asyncFunctions": true
+    },
+    "buildPath": "project://build",
+    "debug": false,
+    "skipCompressTexture": true
+  },
+  "BuildTaskManager": {
+    "taskMap": {
+      "1634636341349": {
+        "type": "build",
+        "id": "1634636341349",
+        "progress": 1,
+        "state": "success",
+        "stage": "build",
+        "message": "2023-9-11 15:59:22 build success in 16433 ms!",
+        "options": {
+          "name": "link",
+          "platform": "wechatgame",
+          "buildPath": "project://build",
+          "debug": false,
+          "md5Cache": false,
+          "sourceMaps": false,
+          "mainBundleCompressionType": "merge_dep",
+          "mainBundleIsRemote": false,
+          "mergeStartScene": false,
+          "experimentalEraseModules": false,
+          "compressTexture": true,
+          "packAutoAtlas": true,
+          "startScene": "ccd8a281-dceb-4daf-af98-a6429d9fd772",
+          "scenes": [
+            {
+              "url": "db://assets/scenes/fight.scene",
+              "uuid": "2680a995-9110-4802-ab52-9bcb75f661d0",
+              "inBundle": false
+            },
+            {
+              "url": "db://assets/scenes/login.scene",
+              "uuid": "ccd8a281-dceb-4daf-af98-a6429d9fd772",
+              "inBundle": false
+            },
+            {
+              "url": "db://assets/scenes/pve.scene",
+              "uuid": "3e5c7c2f-6a88-4819-8368-5bbe7190f2a2"
+            }
+          ],
+          "outputName": "wechatgame",
+          "useSplashScreen": true,
+          "packages": {},
+          "taskName": "wechatgame",
+          "server": "",
+          "skipCompressTexture": true,
+          "polyfills": {
+            "asyncFunctions": false
+          },
+          "startSceneAssetBundle": false,
+          "bundleConfigs": [],
+          "useBuiltinServer": false,
+          "bundleCommonChunk": false,
+          "logDest": "project://temp/builder/log/wechatgame10-19-2021 17-39.log"
+        },
+        "time": "9-11-2023 15:59:06",
+        "dirty": false
+      },
+      "1693819819833": {
+        "type": "build",
+        "id": "1693819819833",
+        "progress": 1,
+        "state": "success",
+        "stage": "build",
+        "message": "2023-9-11 15:59:39 build -> run success in 15858 ms!",
+        "options": {
+          "name": "link300",
+          "server": "",
+          "platform": "web-mobile",
+          "buildPath": "project://build",
+          "debug": false,
+          "md5Cache": false,
+          "skipCompressTexture": false,
+          "sourceMaps": false,
+          "polyfills": {
+            "asyncFunctions": true
+          },
+          "experimentalEraseModules": false,
+          "startSceneAssetBundle": false,
+          "bundleConfigs": [],
+          "useBuiltinServer": false,
+          "mainBundleIsRemote": false,
+          "mainBundleCompressionType": "merge_dep",
+          "useSplashScreen": true,
+          "bundleCommonChunk": false,
+          "packAutoAtlas": true,
+          "startScene": "ccd8a281-dceb-4daf-af98-a6429d9fd772",
+          "outputName": "web-mobile",
+          "taskName": "web-mobile",
+          "scenes": [
+            {
+              "url": "db://assets/scenes/fight.scene",
+              "uuid": "2680a995-9110-4802-ab52-9bcb75f661d0"
+            },
+            {
+              "url": "db://assets/scenes/login.scene",
+              "uuid": "ccd8a281-dceb-4daf-af98-a6429d9fd772"
+            },
+            {
+              "url": "db://assets/scenes/pve.scene",
+              "uuid": "3e5c7c2f-6a88-4819-8368-5bbe7190f2a2"
+            }
+          ],
+          "packages": {},
+          "__version__": "1.3.6",
+          "buildMode": "normal",
+          "logDest": "project://temp/builder/log/web-mobile9-4-2023 17-30.log",
+          "buildStageGroup": {
+            "build": [
+              "run"
+            ]
+          }
+        },
+        "time": "9-11-2023 15:59:23",
+        "dirty": false
+      },
+      "1694163624923": {
+        "type": "build",
+        "id": "1694163624923",
+        "progress": 1,
+        "state": "success",
+        "stage": "build",
+        "message": "2023-9-11 15:59:59 build -> make success in 19576 ms!",
+        "options": {
+          "name": "link",
+          "server": "",
+          "platform": "android",
+          "buildPath": "project://build",
+          "debug": false,
+          "md5Cache": false,
+          "skipCompressTexture": false,
+          "sourceMaps": false,
+          "polyfills": {
+            "asyncFunctions": false
+          },
+          "experimentalEraseModules": false,
+          "startSceneAssetBundle": false,
+          "bundleConfigs": [],
+          "useBuiltinServer": false,
+          "mainBundleIsRemote": false,
+          "mainBundleCompressionType": "merge_dep",
+          "useSplashScreen": true,
+          "bundleCommonChunk": false,
+          "packAutoAtlas": true,
+          "startScene": "ccd8a281-dceb-4daf-af98-a6429d9fd772",
+          "outputName": "android",
+          "taskName": "android",
+          "scenes": [
+            {
+              "url": "db://assets/scenes/fight.scene",
+              "uuid": "2680a995-9110-4802-ab52-9bcb75f661d0"
+            },
+            {
+              "url": "db://assets/scenes/login.scene",
+              "uuid": "ccd8a281-dceb-4daf-af98-a6429d9fd772"
+            },
+            {
+              "url": "db://assets/scenes/pve.scene",
+              "uuid": "3e5c7c2f-6a88-4819-8368-5bbe7190f2a2"
+            }
+          ],
+          "packages": {},
+          "__version__": "1.3.6",
+          "buildMode": "normal",
+          "buildStageGroup": {
+            "build": [
+              "make"
+            ]
+          },
+          "logDest": "project://temp/builder/log/android9-8-2023 17-00.log"
+        },
+        "time": "9-11-2023 15:59:40",
+        "dirty": false
+      }
+    }
+  }
+}
